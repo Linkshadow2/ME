@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aidan G's Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fafafa;
+            color: #333;
+        }
+        header {
+            background-color: #c9c9ff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        .content {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        footer {
+            background-color: #c9c9ff;
+            text-align: center;
+            padding: 10px;
+        }
+        .social-links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+        }
+        .videos {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .videos iframe {
+            flex: 1;
+            min-width: 300px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Aidan G's Personal Webpage</h1>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#blog">Blog</a>
+            <a href="#videos">Videos</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="content">
+        <div id="about" class="section">
+            <h2>About Me</h2>
+            <p>Hello! My name is Aidan G and I am a human. Welcome to my personal webpage where you can learn more about me, check out my blog, and watch some videos.</p>
+        </div>
+
+        <div id="blog" class="section">
+            <h2>Blog</h2>
+            <p>Welcome to my blog! Stay tuned for updates and posts about my life and interests.</p>
+        </div>
+
+        <div id="videos" class="section">
+            <h2>Videos</h2>
+            <div class="videos">
+                <!-- Example video embedding -->
+                <iframe src="https://www.youtube.com/embed/examplevideo1" frameborder="0" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/examplevideo2" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div id="contact" class="section">
+            <h2>Contact</h2>
+            <p>Connect with me on social media:</p>
+            <div class="social-links">
+                <a href="https://open.spotify.com/user/yourspotifyprofile" target="_blank">Spotify</a>
+                <a href="https://www.instagram.com/yourinstagramprofile" target="_blank">Instagram</a>
+                <a href="https://www.snapchat.com/add/yoursnapchatprofile" target="_blank">Snapchat</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Aidan G. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
